@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>John Rey Luis Aguillon - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta name="theme-color" content="#0f172a">
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <header class="header">
+    <div class="logo">
+      <div class="logo-circle">J</div>
+      <div class="logo-text">John Rey</div>
+    </div>
+    <nav class="main-nav">
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#summary" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Work</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="theme-switch-wrapper">
+    <label class="theme-switch" for="checkbox">
+      <input type="checkbox" id="checkbox" />
+      <div class="slider round">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+      </div>
+    </label>
+  </div>
+
+  <main>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <span class="subtitle">Software Engineer</span>
+            <h1 class="title">Hi, I'm <span class="highlight">John Rey</span></h1>
+            <p class="description">AI Developer / Software Engineer / FEU Institute of Technology</p>
+            <div class="hero-cta">
+              <a href="#contact" class="btn btn-primary">Contact Me</a>
+              <a href="#projects" class="btn btn-outline">View My Work</a>
+            </div>
+          </div>
+          <div class="hero-decoration">
+            <div class="blob"></div>
+            <div class="tech-stack">
+              <div class="tech-item"><i class="fab fa-python"></i></div>
+              <div class="tech-item"><i class="fab fa-node"></i></div>
+              <div class="tech-item"><i class="fab fa-react"></i></div>
+              <div class="tech-item"><i class="fas fa-database"></i></div>
+              <div class="tech-item"><i class="fas fa-robot"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <div class="arrow">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="summary" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Professional Summary</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="summary-content">
+          <p class="summary-text">
+            Experienced AI Developer Intern specializing in backend integration and development of AI-powered chatbots using GPT-4, LangChain, MongoDB, Node.js, Express.js, and React.js. Skilled in real-time chat, semantic search, and memory management for advanced AI applications. Proven collaborator with frontend teams and deployment experience within academic environments. Strong background in customer service with emphasis on communication, compliance, and problem solving. Certified in network security, Cisco DevNet, CCNA, AWS Cloud Practitioner, and IT Specialist certifications in Python and Java.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Work Experience</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="experience-container">
+          <div class="timeline">
+            <div class="timeline-item" data-aos="fade-up">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3 class="timeline-title">AI Developer Intern</h3>
+                  <span class="timeline-place">FEU Institute of Technology</span>
+                </div>
+                <div class="timeline-date">Dec 2024 – Jul 2025</div>
+                <ul class="timeline-details">
+                  <li>Spearheaded backend integration of FEU's AI chatbot using OpenAI GPT-4, LangChain, and MongoDB.</li>
+                  <li>Developed real-time chat functionality, file upload features, and semantic search with vector embeddings.</li>
+                  <li>Implemented persistent memory using BufferMemory and conversation ID tracking with Node.js and Express.js.</li>
+                  <li>Collaborated with frontend developers using React and Vite to ensure seamless API interaction.</li>
+                  <li>Contributed to on-premise deployment, optimizing performance within infrastructure limitations.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3 class="timeline-title">Customer Service Representative – Healthcare Account</h3>
+                  <span class="timeline-place">Teleperformance</span>
+                </div>
+                <ul class="timeline-details">
+                  <li>Handled inbound/outbound calls for U.S.-based healthcare provider ensuring HIPAA compliance.</li>
+                  <li>Provided empathetic patient support for scheduling, benefits, and prescriptions.</li>
+                  <li>Resolved billing and claims issues, improving customer satisfaction scores.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3 class="timeline-title">Customer Service Representative – Financial Account</h3>
+                  <span class="timeline-place">Alorica (Progressive Leasing)</span>
+                </div>
+                <ul class="timeline-details">
+                  <li>Assisted customers with lease-to-own financing and billing requests while maintaining data accuracy.</li>
+                  <li>Explained lease terms and return policies in adherence to financial regulations.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Education</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="education-container">
+          <div class="education-item" data-aos="fade-up">
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="education-content">
+              <h3 class="education-degree">Bachelor of Science in Computer Science</h3>
+              <div class="education-institution">FEU Institute of Technology</div>
+              <div class="education-date">Expected Oct 2025</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Projects</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="projects-container">
+          <div class="project-card" data-aos="fade-up">
+            <div class="project-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">FEU Tech AI Chatbot</h3>
+              <p class="project-description">Developed an on-premise AI chatbot utilizing GPT-4, LangChain, MongoDB, Node.js, Express.js, and React.js. Designed backend architecture for real-time AI interaction with memory retention and vector search for semantic query handling. Collaborated closely with frontend team to deliver seamless user experience.</p>
+              <div class="project-tech">
+                <span class="tech-badge">GPT-4</span>
+                <span class="tech-badge">LangChain</span>
+                <span class="tech-badge">MongoDB</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">React.js</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="skills-container">
+          <div class="skills-group" data-aos="fade-up">
+            <div class="skills-header">
+              <i class="fas fa-code"></i>
+              <h3>Languages</h3>
+            </div>
+            <div class="skills-content">
+              <div class="skill-item">
+                <span class="skill-name">Python</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width:90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">C++</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width:75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Java</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width:80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-group" data-aos="fade-up" data-aos-delay="100">
+            <div class="skills-header">
+              <i class="fas fa-server"></i>
+              <h3>Backend & Web</h3>
+            </div>
+            <div class="skills-content">
+              <div class="skill-item">
+                <span class="skill-name">Node.js</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width:85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Express.js</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width:80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">MongoDB</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width:75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">LangChain</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width:85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">OpenAI API</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width:90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">REST APIs</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width:85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-group" data-aos="fade-up" data-aos-delay="200">
+            <div class="skills-header">
+              <i class="fas fa-desktop"></i>
+              <h3>Frontend</h3>
+            </div>
+            <div class="skills-content">
+              <div class="skill-item">
+                <span class="skill-name">React.js</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width:80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-group" data-aos="fade-up" data-aos-delay="300">
+            <div class="skills-header">
+              <i class="fas fa-cloud"></i>
+              <h3>Cloud & OS</h3>
+            </div>
+            <div class="skills-content">
+              <div class="skill-item">
+                <span class="skill-name">AWS</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width:70%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Kali Linux</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width:75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Ubuntu</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width:80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-group" data-aos="fade-up" data-aos-delay="400">
+            <div class="skills-header">
+              <i class="fas fa-tools"></i>
+              <h3>Tools</h3>
+            </div>
+            <div class="skills-content">
+              <div class="skill-item">
+                <span class="skill-name">Git</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width:85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="soft-skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Soft Skills</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="soft-skills-container">
+          <div class="soft-skill-item" data-aos="zoom-in">
+            <div class="soft-skill-icon">
+              <i class="fas fa-comments"></i>
+            </div>
+            <h3 class="soft-skill-title">Communication</h3>
+          </div>
+          <div class="soft-skill-item" data-aos="zoom-in" data-aos-delay="100">
+            <div class="soft-skill-icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <h3 class="soft-skill-title">Attention to Detail</h3>
+          </div>
+          <div class="soft-skill-item" data-aos="zoom-in" data-aos-delay="200">
+            <div class="soft-skill-icon">
+              <i class="fas fa-tasks"></i>
+            </div>
+            <h3 class="soft-skill-title">Organization</h3>
+          </div>
+          <div class="soft-skill-item" data-aos="zoom-in" data-aos-delay="300">
+            <div class="soft-skill-icon">
+              <i class="fas fa-user-secret"></i>
+            </div>
+            <h3 class="soft-skill-title">Confidentiality</h3>
+          </div>
+          <div class="soft-skill-item" data-aos="zoom-in" data-aos-delay="400">
+            <div class="soft-skill-icon">
+              <i class="fas fa-puzzle-piece"></i>
+            </div>
+            <h3 class="soft-skill-title">Problem Solving</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Certifications</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="certifications-container">
+          <a href="https://drive.google.com/file/d/1VNKZ1w1OU6MZFfliuIPN8E_MsZiZ9xsD/view?usp=sharing" target="_blank" class="certification-card" data-aos="fade-up">
+            <div class="certification-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="certification-content">
+              <h3 class="certification-title">Certified Network Security Practitioner</h3>
+              <p class="certification-issuer">The SecOps Group</p>
+              <p class="certification-date">Feb 2025</p>
+            </div>
+          </a>
+
+          <a href="https://www.credly.com/badges/065bd958-622d-4661-a1e1-f55a7ea1d7da/public_url" target="_blank" class="certification-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="certification-icon">
+              <i class="fas fa-network-wired"></i>
+            </div>
+            <div class="certification-content">
+              <h3 class="certification-title">Cisco DevNet Associate</h3>
+              <p class="certification-issuer">Cisco</p>
+              <p class="certification-date">Dec 2023</p>
+            </div>
+          </a>
+
+          <a href="https://www.credly.com/badges/1bd76eaa-f2ae-4ef7-823a-1a732878d970/public_url" target="_blank" class="certification-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="certification-icon">
+              <i class="fas fa-network-wired"></i>
+            </div>
+            <div class="certification-content">
+              <h3 class="certification-title">CCNA: Introduction to Networks</h3>
+              <p class="certification-issuer">Cisco</p>
+              <p class="certification-date">Jul 2023</p>
+            </div>
+          </a>
+
+          <a href="https://www.credly.com/badges/3b4ee0ce-f21b-4ee8-aa9d-00570a903266/public_url" target="_blank" class="certification-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="certification-icon">
+              <i class="fas fa-cloud"></i>
+            </div>
+            <div class="certification-content">
+              <h3 class="certification-title">AWS Cloud Quest: Cloud Practitioner</h3>
+              <p class="certification-issuer">AWS</p>
+              <p class="certification-date">May 2023</p>
+            </div>
+          </a>
+
+          <a href="https://www.credly.com/badges/8953101f-5844-4bd0-8360-8f8ad0684589" target="_blank" class="certification-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="certification-icon">
+              <i class="fab fa-java"></i>
+            </div>
+            <div class="certification-content">
+              <h3 class="certification-title">IT Specialist – Java</h3>
+              <p class="certification-issuer">Certiport / Pearson VUE</p>
+              <p class="certification-date">Nov 2022</p>
+            </div>
+          </a>
+
+          <a href="https://www.credly.com/badges/dec5157b-f662-4c89-9927-06ea2d01c95e" target="_blank" class="certification-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="certification-icon">
+              <i class="fab fa-python"></i>
+            </div>
+            <div class="certification-content">
+              <h3 class="certification-title">IT Specialist – Python</h3>
+              <p class="certification-issuer">Certiport / Pearson VUE</p>
+              <p class="certification-date">Nov 2022</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contact Me</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item" data-aos="fade-right">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Phone</h3>
+                <p>09294219837</p>
+              </div>
+            </div>
+            <div class="contact-item" data-aos="fade-right" data-aos-delay="100">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Email</h3>
+                <p>jrldasmarinas@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item" data-aos="fade-right" data-aos-delay="200">
+              <div class="contact-icon">
+                <i class="fab fa-facebook"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Facebook</h3>
+                <p><a href="https://www.facebook.com/johnrey.aguillon.353" target="_blank">johnrey.aguillon.353</a></p>
+              </div>
+            </div>
+            <div class="contact-item" data-aos="fade-right" data-aos-delay="300">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="contact-text">
+                <h3>LinkedIn</h3>
+                <p><a href="https://www.linkedin.com/in/john-rey-luis-aguillon-02a4a333a/" target="_blank">john-rey-luis-aguillon-02a4a333a</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form" data-aos="fade-left">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Blog</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="blog-header" data-aos="fade-up">
+          <h3>John Rey Luis Aguillon's Blog</h3>
+          <p>Sharing thoughts on AI, software development, and technology.</p>
+        </div>
+        <div class="blog-container" id="posts-container">
+          <!-- Blog posts will be loaded here via JavaScript -->
+        </div>
+        <div class="blog-footer">
+          <button id="loadMoreBtn" class="btn btn-outline">Load More Posts</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="logo-circle">J</div>
+          <div class="logo-text">John Rey</div>
+        </div>
+        <div class="footer-social">
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="footer-copyright">
+          <p>© 2025 John Rey Luis Aguillon. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
